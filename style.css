@@ -1,0 +1,41 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+main {
+  position: relative;
+  width: 98%;
+  background-color: #eeeeee;
+  top: 50px;
+  left: 10px;
+  right: ;
+  font-family: sans-serif;
+}
+
+main h1 {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  font-size: 40px;
+}
+
+main p {
+  text-align: center;
+  font-size: 16px;
+  padding-bottom: 15px;
+}
+
+.img-div {
+  background-color: white;
+  position: relative;
+  width: 95%;
+}
+
+#image {
+  width: 95%;
+  position: relative;
+  left: 3%;
+  top: 10%;
+}
