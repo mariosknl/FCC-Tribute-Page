@@ -1,6 +1,6 @@
 * {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -12,11 +12,10 @@ main {
   position: relative;
   width: 98%;
   height: auto;
-  background-color: #eeeeee;
+  background-color: #eee;
   top: 30px;
   left: 0.5%;
   right: 0.5%;
-
   font-family: sans-serif;
 }
 
@@ -60,11 +59,12 @@ main p {
   margin: 0 auto;
   font-size: 1.6rem;
 }
+
 #tribute-info h2 {
   width: 70%;
   font-size: 1.87rem;
   font-weight: 700;
-  color: #333333;
+  color: #333;
   text-align: center;
   margin: 1rem auto;
   padding-top: 3.3rem;
