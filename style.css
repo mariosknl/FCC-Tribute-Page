@@ -4,13 +4,19 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 main {
   position: relative;
   width: 98%;
+  height: auto;
   background-color: #eeeeee;
-  top: 50px;
-  left: 10px;
-  right: ;
+  top: 30px;
+  left: 0.5%;
+  right: 0.5%;
+
   font-family: sans-serif;
 }
 
@@ -18,24 +24,79 @@ main h1 {
   text-align: center;
   padding-top: 50px;
   padding-bottom: 30px;
-  font-size: 40px;
+  font-size: 4rem;
 }
 
 main p {
   text-align: center;
-  font-size: 16px;
+  font-size: 1.6rem;
   padding-bottom: 15px;
 }
 
-.img-div {
+#img-div {
   background-color: white;
   position: relative;
-  width: 95%;
+  width: 98%;
+  left: 1%;
+  right: 1%;
+  text-align: center;
 }
 
 #image {
-  width: 95%;
-  position: relative;
-  left: 3%;
-  top: 10%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+#img-caption {
+  font-size: 1.6rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+#tribute-info {
+  width: 40%;
+  margin: 0 auto;
+  font-size: 1.6rem;
+}
+#tribute-info h2 {
+  width: 70%;
+  font-size: 1.87rem;
+  font-weight: 700;
+  color: #333333;
+  text-align: center;
+  margin: 1rem auto;
+  padding-top: 3.3rem;
+  padding-bottom: 3.3rem;
+}
+
+#tribute-info ul li {
+  width: 103%;
+  margin: 2rem;
+  line-height: 2.5rem;
+}
+
+#quote {
+  margin-top: 3.5rem;
+}
+
+#tribute-info p {
+  font-size: 1.5rem;
+  display: inline;
+  font-style: italic;
+  line-height: 2.5rem;
+}
+
+#last {
+  margin-top: 1rem;
+  padding-bottom: 3rem;
+}
+
+footer h1 {
+  font-size: 1.87rem;
+}
+
+footer a {
+  color: #477ca7;
 }
